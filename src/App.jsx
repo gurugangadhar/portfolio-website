@@ -12,15 +12,15 @@ function App() {
   return (
     <>
     
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio-website">
       <ScrollToTop/>
         <Routes>
-          <Route path="*" element={<PageNotFound />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skill />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
       
