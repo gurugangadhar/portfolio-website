@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     
-      <BrowserRouter basename="/portfolio-website">
+      <BrowserRouter>
       <ScrollToTop/>
         <Routes>
           <Route path="/" element={<HomePage />} />
