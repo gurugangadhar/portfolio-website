@@ -22,11 +22,11 @@ function AboutPage() {
               >
                 <ActionBox
                   isleft={true}
-                  timeline={"2017 - 2018"}
+                  timeline={"2018 - 2019"}
                   timeline_title={"High School "}
-                  location={"SVM Inter College, Kotwdara"}
+                  location={"Gopi Kirshna, Proddatur"}
                   details={
-                    "Completed my High School Degree from State Board with 78%."
+                    "Completed my High School Degree from State Board with 85%."
                   }
                 />
               </div>
@@ -35,11 +35,11 @@ function AboutPage() {
               >
                 <ActionBox
                   isleft={false}
-                  timeline={"2019 - 2020"}
+                  timeline={"2019 - 2021"}
                   timeline_title={"Senior Secondary (10+2)"}
-                  location={"SVM Inter College, Kotdwara"}
+                  location={"Sri Shirdi Sai Junior College, Proddatur"}
                   details={
-                    "Completed my Degree from State Board with 78% from SVM School, Kotdwara, 246149."
+                    "Completed my Degree from State Board with 92%."
                   }
                 />
               </div>
@@ -48,33 +48,16 @@ function AboutPage() {
               >
                 <ActionBox
                   isleft={true}
-                  timeline={"2020 - 2022"}
-                  timeline_title={"Diploma in Computer Science "}
-                  location={"Govt. Polytechnic Kotdwara"}
+                  timeline={"2021 - 2025"}
+                  timeline_title={"Bachelors in Electronics & Communication"}
+                  location={"AITS, Tirupati"}
                   details={
-                    "Pursued the diploma in Computer Science & Engineering with 9 cgpa from Uttrakhand Board Of Technical Education"
+                    "completed my Bachelors Degree in Electronics & Communication from AITS, Tirupati with 8.8 CGPA."
                   }
-                  img={
-                    "https://www.gpkotdwar.org.in/images/gallery/l8THHpO6.jpg"
-                  }
+                 
                 />
               </div>
-              <div
-                className={`${style.action_container} ${style.right_container}`}
-              >
-                <ActionBox
-                  isleft={false}
-                  timeline={"2022 - 2025"}
-                  timeline_title={"Bachelors in Computer Applications"}
-                  location={"University Of Mysore"}
-                  details={
-                    "Currently completing my Bachelors Degree in Computer Applications (Online) from Mysore University"
-                  }
-                  img={
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq25wBcbXkIUAg1yyYvwNMT--QIk76V1QFkI0rIdt5Kw&s"
-                  }
-                />
-              </div>
+             
             </div>
           </div>
           <div className={style.timeline_container}>
@@ -85,11 +68,11 @@ function AboutPage() {
               >
                 <ActionBox
                   isleft={true}
-                  timeline={"2022 - 2023"}
-                  timeline_title={"TGT Teacher"}
-                  location={"Bal Bharti Public School, Kotdwara"}
+                  timeline={"Apr - May ( 2025 )"}
+                  timeline_title={"SDE Intren"}
+                  location={"Bluestock™, Remote"}
                   details={
-                    "I have worked as a junior teacher in school and also worked in management. "
+                    "I have worked as a Software Development Engineer Intern at Bluestock, I have worked on IPO Web Application & REST API Development."
                   }
                 />
               </div>
@@ -98,11 +81,11 @@ function AboutPage() {
               >
                 <ActionBox
                   isleft={false}
-                  timeline={"2023 - 2024"}
-                  timeline_title={"Apprentice Engineer "}
-                  location={"Bharat Electronics Limited, Ktd."}
+                  timeline={"2024 - 2025 ( April )"}
+                  timeline_title={"Full Stack & Javascript Intern"}
+                  location={"Slash Mark IT Solutions (OPC) Pvt.Ltd, Remote"}
                   details={
-                    "Worked as an Apprentice Engineer for 1 year under BEL Kotdwara, Ministry of External Affairs"
+                    "I have worked as a Full Stack & Javascript Intern at SlashMark on Web Application Development using ReactJS, NodeJS, ExpressJS and MongoDB."
                   }
                 />
               </div>
@@ -112,10 +95,10 @@ function AboutPage() {
                 <ActionBox
                   isleft={false}
                   timeline={"2024"}
-                  timeline_title={"PGT Teacher"}
-                  location={"Navyug Public School, Kotdwara"}
+                  timeline_title={"Lead Organizer"}
+                  location={"Trishna 2K24 - Technical Fest @AITS,Tirupati"}
                   details={
-                    "Worked as an PGT Teacher at senior secondary level."
+                    "As a Lead Organizer, I managed the event, coordinating with teams, and ensuring the smooth execution of various technical events."
                   }
                 />
               </div>
@@ -124,11 +107,11 @@ function AboutPage() {
               >
                 <ActionBox
                   isleft={false}
-                  timeline={"Nov 2024"}
-                  timeline_title={"PGT Computer Science"}
-                  location={"AVN Public School, Kotdwara"}
+                  timeline={"2025"}
+                  timeline_title={"Technical Lead"}
+                  location={"CODEATHON 2K25 - Hackathon @AITS,Tirupati"}
                   details={
-                    "Working as an PGT Teacher at  AVN Public School, Kotdwara."
+                    "As a Technical Lead, I am responsible for designing of exam portal (Webpage) and managing the technical aspects of the hackatho."
                   }
                 />
               </div>

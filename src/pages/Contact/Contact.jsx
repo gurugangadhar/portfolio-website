@@ -19,27 +19,13 @@ function Contact() {
             <EmailComponent/>
           </div>
           <div className={styles.right_section_indexing}>
-            {/* Buttons to naviagate betwwen main and whatsapp  */}
-            {/* <div className={styles.button_section}>
-              <button className={`${styles.btn} ${styles.mail_btn}`}>
-                <i
-                  className={`fa-solid fa-envelope ${styles.button_icon} ${styles.mail_icon}`}
-                ></i>
-                Send Mail
-              </button>
-              <button className={`${styles.btn} ${styles.whatsapp_btn}`}>
-                <i
-                  className={`fa-brands fa-whatsapp ${styles.button_icon} ${styles.whatsapp_icon}`}
-                ></i>
-                Whatsapp
-              </button>
-            </div> */}
+           
             {/* Location Section  */}
             <div className={styles.location_services}>
             <div className={styles.symbol}>
                 <i className={`fa-solid fa-location-dot`}></i>
               </div>
-              <p>House. 313, Ward.14, Kotdwara (246149), Uttrakhand</p>
+              <p>House - 26/913-8, Nagendra Nagar, VTC: Proddatur, PO: Proddatur, Sub District: Proddatur, District: Cuddapah, State: Andhra Pradesh, PIN Code: 516360,</p>
             </div>
 
             {/* Phone Services  */}
@@ -48,7 +34,7 @@ function Contact() {
                 <i className={`fa-solid fa-phone`}></i>
               </div>
 
-              <p>725-198-5596</p>
+              <p>9059694801</p>
             </div>
             {/* Follow me Section  */}
             <div className={styles.follow_me_section}>
@@ -57,18 +43,28 @@ function Contact() {
                 {/* this is my linked in platfrom  */}
                 <div className={styles.account_icon}>
                   <a
-                    href="https://www.linkedin.com/in/shivamsharma1611/"
+                    href="https://www.linkedin.com/in/guru-gangadhar19"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <i className="fa-brands fa-linkedin"></i>
                   </a>
                 </div>
+
+                <div className={styles.account_icon}>
+                  <a
+                    href="mailto:gurugangadharreddy19@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-envelope"></i>
+                  </a>
+                </div>
                 {/* This is my github platform  */}
 
                 <div className={styles.account_icon}>
                   <a
-                    href="https://github.com/shivam1611"
+                    href="https://github.com/gurugangadhar"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -78,7 +74,7 @@ function Contact() {
                 {/* This is my instagram handle  */}
                 <div className={styles.account_icon}>
                   <a
-                    href="https://www.instagram.com/shivamsharma_1611/"
+                    href="https://www.instagram.com/gurugangadhar_1516"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

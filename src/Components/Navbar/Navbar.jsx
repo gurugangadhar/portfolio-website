@@ -23,7 +23,7 @@ function Navbar() {
       <div ref={navbar}  className={style.navbar}>
         <div>
           <NavLink className={style.logo} to="/">
-            Shivam Sharma
+            Guru Gangadhar
           </NavLink>
         </div>
         <ul className={style.navlist}>
@@ -73,7 +73,7 @@ function Navbar() {
         </ul>
         <div className={style.social_media_section}>
           <a
-            href="https://github.com/shivam1611"
+            href="https://github.com/gurugangadhar"
             rel="noopener noreferrer"
             target="_blank"
             className={style.link}
@@ -81,23 +81,23 @@ function Navbar() {
             <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/shivamsharma1611/"
+            href="https://www.linkedin.com/in/guru-gangadhar19"
             target="_blank"
             rel="noopener noreferrer"
             className={style.link}
           >
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a
-            href="https://twitter.com/Codeshey"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={style.link}
-          >
-            <i className="fa-brands fa-x-twitter"></i>
+           <a
+                href="mailto:gurugangadharreddy19@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+            <i className="fa fa-envelope"></i>
           </a>
+          
           <a
-            href="https://www.instagram.com/shivamsharma_1611/"
+            href="https://www.instagram.com/gurugangadhar_1516"
             target="_blank"
             rel="noopener noreferrer"
             className={style.link}

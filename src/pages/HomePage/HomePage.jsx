@@ -26,7 +26,7 @@ function HomePage() {
             }}
             className={style.upper_text_style}
           >
-            Hello I'm shivam
+            Hello I'm Guru 
           </motion.p>
           <motion.p
             initial={{ opacity: 0, x: "-10vw" }}
@@ -39,7 +39,7 @@ function HomePage() {
             }}
             className={style.bottom_text_style}
           >
-            &lt;Frontend Developer/&gt;
+            &lt;Full-stack Developer/&gt;
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -52,8 +52,8 @@ function HomePage() {
             }}
             className={style.detail_text}
           >
-            Passionate and detail-oriented Frontend Developer, Proficient in
-            React.js along with HTML, CSS, and JavaScript, with a strong
+            Passionate and detail-oriented Fullstack Developer, Proficient in
+            React.js, springboot, Node.js, SQL along with HTML, CSS, and JavaScript, with a strong
             foundation in responsive design and user experience principles.
           </motion.p>
           <motion.button
@@ -64,8 +64,8 @@ function HomePage() {
           >
             <a
               className="link_under_button"
-              target="_blank"
-              href="https://drive.google.com/file/d/1chxfIEABMHSjxk8pVn6Lu7RlWtRRgInj/view?usp=drive_link"
+              target="_Blank"
+              href="https://drive.google.com/file/d/17uZLGTJfXSQoBEUN0DIYnoSmYxxte1Km/view?usp=sharing"
             >
               Download CV
             </a>
@@ -78,7 +78,7 @@ function HomePage() {
           className={style.right_section}
         >
           <div className={style.img_section}>
-            <img src={HeroImage} alt="Shivam" className={style.hero_image} />
+            <img src={HeroImage} alt="Guru" className={style.hero_image} />
           </div>
         </motion.div>
       </motion.div>

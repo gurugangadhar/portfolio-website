@@ -1,17 +1,14 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import styles from "./ProjectPage.module.css";
 import ProjectCard from "../../Components/ProjectCard/projectCard";
-import teamtrackrIMG from "../../assets/teamtrackrIMG.png";
-import marketingIMG from "../../assets/marketingIMG.png";
-import travelHookIMG from "../../assets/travelhookIMG.png";
-import safecamIMG from "../../assets/safecamIMG.png";
-import quizIMG from "../../assets/quizIMG.png";
+import techfestIMG from "../../assets/techfest.png";
+import foodIMG from "../../assets/fooddelevary.png";
 import weatherAppImg from '../../assets/weaht.png'
 import { motion } from "framer-motion";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
 import Circle from "../../Components/Circle/Circle";
 import MainContainer from "../../Components/MainContainer/MainContainer";
-import orderly from "../../assets/orderly.png"
+import ExamPotal from "../../assets/Examportal.png"
 
 function Projects() {
   return (
@@ -28,63 +25,66 @@ function Projects() {
             className={styles.projects_component}
           >
             <ProjectCard
-              previewLink={"https://youtu.be/GLJCR6IoIjQ?si=TDubWvPu9k_6OHkN"}
-              githubLink={"https://github.com/shivam1611/orderly-billing-app"}
-              projectName={"Orderly Billing App"}
+              previewLink={"https://www.linkedin.com/posts/guru-gangadhar19_secureexamportal-codeathon2k25-webdevelopment-activity-7335681790075916290-NkFX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEeCiywBsOhu1eLWckr2gW6469LWO1ZSjlc"}
+              githubLink={"https://github.com/gurugangadhar/Test"}
+              projectName={"Secure Exam Portal"}
               projectDetails={
-                "Orderly Billing is a modern and efficient billing software built with React, designed to streamline cafe and restaurant operations. "
+                "a fully functional exam management system enabling seamless exam creation, student access, and automatic result evaluation."
               }
-              demoImage={orderly}
+              demoImage={ExamPotal}
               skill_img={[
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/google-sheets-logo-icon.svg",
+                "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
+
               ]}
             />
 
             <ProjectCard
-              previewLink={"https://thereactquizz.netlify.app/"}
-              githubLink={"https://github.com/shivam1611/react-quiz"}
-              projectName={"React Quiz App"}
+              previewLink={"https://gurugangadhar.github.io/food-delevary/"}
+              githubLink={"https://github.com/gurugangadhar/food-delevary"}
+              projectName={"Foodie"}
               projectDetails={
-                "React Quiz App: Answer React questions, get results. Fun way to test React knowledge. Simple, interactive, and informative!"
+                "This Foodie site that allows users to browse and order food from the restaurant. It features a user-friendly interface, real-time updates, and secure payment options."
               }
-              demoImage={quizIMG}
+              demoImage={foodIMG}
               skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+               
                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
               ]}
             />
             <ProjectCard
-              previewLink={"https://reatweathersite.netlify.app/"}
+              previewLink={"https://gurugangadhar.github.io/Weather/"}
               githubLink={
-                "https://github.com/shivam1611/react-whether-app/tree/main"
+                "https://github.com/gurugangadhar/Weather/"
               }
-              projectName={"React Weather App"}
+              projectName={"Weather App"}
               projectDetails={
-                "This is React Weather App for you to see how the day is going. Interactive Web Application based on API Data fetching."
+                "This is Weather App for you to see how the day is going. Interactive Web Application based on API Data fetching."
               }
               demoImage={weatherAppImg}
               skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+           
                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/framer-motion.svg",
+               
               ]}
             />
 
             <ProjectCard
-              previewLink={"https://teamtrackers.netlify.app/"}
-              githubLink={"https://github.com/shivam1611/Team-Trackr-app"}
-              projectName={"Team Trackr App"}
+              previewLink={"https://kaif-g.github.io/Trishna/"}
+              githubLink={"https://github.com/gurugangadhar/Trishna-2k24"}
+              projectName={"Tech Fest Webpage"}
               projectDetails={
-                "It is an Employee Data Management System in which we can store the data of the employee and acces the data of the employee"
+                "These is a Technical Fest webpage designed for a college event, showcasing the event details, schedule, and registration information. It is built using React.js, HTML, CSS, and JavaScript."
               }
-              demoImage={teamtrackrIMG}
+              demoImage={techfestIMG}
               key={"Team Trackr App"}
               skill_img={[
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
@@ -93,55 +93,9 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
               ]}
             />
-            <ProjectCard
-              previewLink={"https://glistening-shortbread-4a11c7.netlify.app/"}
-              githubLink={
-                "https://github.com/shivam1611/static-marketing-agency-website-"
-              }
-              projectName={"Marketing Solutions Webpage"}
-              projectDetails={
-                "It is a responsive and Mobile friendly static webpage created using pure HTML, CS and jQuery."
-              }
-              demoImage={marketingIMG}
-              key={"Marketing Solutions Webpage"}
-              skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-              ]}
-            />
-            <ProjectCard
-              previewLink={"https://travelhook.netlify.app/"}
-              githubLink={"https://github.com/shivam1611/travel-hook"}
-              projectName={"Travel Hook Webpage"}
-              projectDetails={
-                "It is a responsive and Mobile friendly static webpage created using pure HTML, CS and jQuery."
-              }
-              demoImage={travelHookIMG}
-              key={"Travel Hook Webpage"}
-              skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-              ]}
-            />
-            <ProjectCard
-              previewLink={"https://kaleidoscopic-nougat-c405ab.netlify.app/"}
-              githubLink={
-                "https://github.com/shivam1611/safe-cams-static-website"
-              }
-              projectName={"SafeCam Webpage"}
-              projectDetails={
-                "It is a responsive and Mobile friendly static webpage created using pure HTML, CS and jQuery."
-              }
-              demoImage={safecamIMG}
-              key={"SafeCam Webpage"}
-              skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-              ]}
-            />
+            
+           
+           
           </motion.div>
         </div>
       </MainContainer>

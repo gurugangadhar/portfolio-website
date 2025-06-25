@@ -21,16 +21,16 @@ function EmailComponent() {
     
 
     // These are the service ID , template ID and public key 
-    const service_ID  = "service_qe6i7dq"
-    const template_ID = "template_35hmgua"
-    const public_key  = "pV9eM-fI9W4wg98UD"
+    const service_ID  = "service_7svggki"
+    const template_ID = "template_pkacvs9"
+    const public_key  = "QSWKFQ5w1gC-JwDQ5"
 
     // A new object that will  container the dynamic template parameters 
     const template = {
       from_name : fname,
-      from_email : email,
-      to_name : "Shivam Sharma",
-      message: message
+      user_email: email,
+      to_name : "Guru Gangadhar Reddy",
+      message: message,
     }
     //  Now sending the email using email.js 
 
@@ -103,7 +103,7 @@ function EmailComponent() {
           </div>
         </div>
         <button className={styles.submit_btn} type="submit"> 
-        <i className="fa-solid fa-paper-plane"></i>
+        <i className="fa fa-send-o"></i>
         </button>
       </form>
      
