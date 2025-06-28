@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gurugangadhar.me",
+  "homepage": "https://gurugangadhar.github.io/portfolio-website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
