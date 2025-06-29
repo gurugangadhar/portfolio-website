@@ -1,0 +1,376 @@
+/* Services Container */
+.servicesContainer {
+  min-height: 100vh;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.heroSection {
+  padding: 120px 2rem 80px;
+  text-align: center;
+  background: transparent;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroDescription {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--gray);
+  margin-top: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Services Grid */
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+/* Service Card - Dark with Subtle Border Glow */
+.serviceCard {
+  max-width: 28rem;
+  height: 31rem;
+  padding: 1rem;
+  border: 1px solid var(--fade);
+  border-radius: 1rem;
+  position: relative;
+  background-color: var(--dark-blue);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect with subtle movement only */
+.serviceCard:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.serviceCard::after {
+  content: "";
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  background: rgb(0, 224, 189);
+  background:none;
+  background-size: 200%;
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  z-index: -1;
+  animation: animate-shadow 10s linear infinite alternate;
+  filter: blur(13px);
+  opacity: 0.7;
+  border-radius: 1rem;
+}
+
+@keyframes animate-shadow {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+
+/* Service Icon Section */
+.serviceIconSection {
+  height: 45%;
+  width: 100%;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover .serviceIconSection {
+  transform: scale(1.05);
+}
+
+.serviceMainIcon {
+  width: 90000000px;
+  height: 190px;
+  object-fit: contain;
+  filter: brightness(1.1);
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover .serviceMainIcon {
+  transform: rotate(5deg) scale(1.1);
+}
+
+/* Service Content */
+.serviceContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  height: 55%;
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover .serviceContent {
+  transform: translateY(-3px);
+}
+
+.serviceTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  color: var(--white);
+}
+
+.serviceDescription {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: var(--gray);
+  text-align: justify;
+  width: 95%;
+  height: 4.3em;
+  overflow: hidden;
+}
+
+/* Technologies */
+.technologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.7rem;
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover .technologies {
+  transform: translateX(3px);
+}
+
+/* Tech icons with subtle animation */
+.techIcon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.serviceCard:hover .techIcon {
+  transform: scale(1.1);
+}
+
+/* Remove the hover effect from tech icons */
+
+/* Learn More Button with movement animation */
+.learnMoreBtn {
+  background-color: var(--fade);
+  color: var(--white);
+  border: none;
+  border-radius: 3rem;
+  padding: 0.3rem 0.5rem;
+  height: 2.7rem;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.learnMoreBtn:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(63, 156, 255, 0.3);
+}
+
+/* Remove button hover effect */
+
+/* CTA Section */
+.ctaSection {
+  background: transparent;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.ctaContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.ctaContent p {
+  font-size: 1.2rem;
+  color: var(--gray);
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButton {
+  background: linear-gradient(45deg, var(--fade), var(--light));
+  color: var(--white);
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(63, 156, 255, 0.3);
+}
+
+.ctaButton:hover {
+  background: linear-gradient(45deg, var(--light), var(--fade));
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(63, 156, 255, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .servicesGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+  
+  .serviceCard {
+    max-width: 100%;
+    padding: 1rem;
+    height: auto;
+    min-height: 28rem;
+  }
+  
+  .serviceIconSection {
+    height: 40%;
+    margin-bottom: 1rem;
+  }
+  
+  .serviceMainIcon {
+    width: 400px;
+  height: 150px;
+  }
+  
+  .serviceContent {
+    height: 60%;
+  }
+  
+  .serviceTitle {
+    font-size: 1.3rem;
+  }
+  
+  .serviceDescription {
+    font-size: 0.85rem;
+    height: auto;
+  }
+  
+  .technologies {
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+  }
+  
+  .techIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .heroDescription {
+    font-size: 1rem;
+  }
+  
+  .ctaContent h2 {
+    font-size: 2rem;
+  }
+  
+  .heroSection {
+    padding: 100px 1rem 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .serviceCard {
+    margin: 0 0.5rem;
+    min-height: 26rem;
+  }
+  
+  .serviceIconSection {
+    height: 35%;
+  }
+  
+  .serviceMainIcon {
+     width: 290px;
+  height: 120px;
+  }
+  
+  .ctaContent h2 {
+    font-size: 1.8rem;
+  }
+  
+  .ctaContent p {
+    font-size: 1rem;
+  }
+  
+  .servicesGrid {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .serviceCard {
+    min-height: 24rem;
+  }
+  
+  .serviceIconSection {
+    height: 30%;
+  }
+  
+  .serviceMainIcon {
+    width: 190px;
+  height: 90px;
+  }
+  
+  .serviceTitle {
+    font-size: 1.2rem;
+  }
+  
+  .serviceDescription {
+    font-size: 0.8rem;
+    height: auto;
+  }
+  
+  .technologies {
+    gap: 0.2rem;
+  }
+  
+  .techIcon {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}

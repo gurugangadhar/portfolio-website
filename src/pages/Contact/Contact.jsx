@@ -2,12 +2,16 @@ import Navbar from "../../Components/Navbar/Navbar";
 import MainContainer from "../../Components/MainContainer/MainContainer";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
 import {motion} from 'framer-motion'
+import { useLocation } from 'react-router-dom';
 import styles from "./Contact.module.css";
 
 import EmailComponent from "../../Components/EmailComponent/EmailComponent";
 import Circle from "../../Components/Circle/Circle";
 
 function Contact() {
+  const location = useLocation();
+  const prefilledMessage = location.state?.prefilledMessage || "";
+  
   return (
     <div>
       <Navbar />
@@ -16,7 +20,7 @@ function Contact() {
         <ComponentTitle title={"Get in touch"} />
         <div className={styles.box}>
           <div className={styles.left_section_indexing}>
-            <EmailComponent/>
+            <EmailComponent prefilledMessage={prefilledMessage} />
           </div>
           <div className={styles.right_section_indexing}>
            

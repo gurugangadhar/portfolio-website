@@ -1,11 +1,11 @@
-import React, {  useState,useRef } from "react";
+import React, {  useState,useRef, useEffect } from "react";
 import styles from "./EmailComponent.module.css";
 import Mail from "../../assets/mail.svg";
 import emailjs from '@emailjs/browser';
 import AlertBox from "../AlertBox/AlertBox";
 import Loader from "../Loader/Loader";
 
-function EmailComponent() {
+function EmailComponent({ prefilledMessage = "" }) {
   const [fname, setFname] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -14,6 +14,13 @@ function EmailComponent() {
   const [viewAlert, setViewAlert] = useState(false)
 
   const form = useRef();
+
+  // Set prefilled message when component mounts or prop changes
+  useEffect(() => {
+    if (prefilledMessage) {
+      setMessage(prefilledMessage);
+    }
+  }, [prefilledMessage]);
 
   const sendEmail = (e) => {
     e.preventDefault();

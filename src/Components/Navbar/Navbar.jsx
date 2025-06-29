@@ -63,6 +63,14 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
+            <NavLink className={style.navigation} to="/services">
+            <span className={style.nav_icons}>
+            <i className="fa-solid fa-briefcase"></i>
+              </span>
+              Services
+            </NavLink>
+          </li>
+          <li>
             <NavLink className={style.navigation} to="/contact">
             <span className={style.nav_icons}>
             <i className="fa-solid fa-phone"></i>
