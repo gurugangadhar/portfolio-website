@@ -1,0 +1,16 @@
+{
+  "name": "Guru Gangadhar Reddy - Portfolio",
+  "short_name": "Guru Portfolio",
+  "description": "Professional Full-stack Developer offering Web Design, Logo Design, Video Editing, and more services",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#010914",
+  "theme_color": "#010914",
+  "icons": [
+    {
+      "src": "/src/assets/faviconn.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

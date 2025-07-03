@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemaps for both domains
+Sitemap: https://gurugangadhar.me/sitemap.xml
+Sitemap: https://gurugangadhar.netlify.app/sitemap.xml
+
+# Specific pages for crawling
+Allow: /about
+Allow: /projects
+Allow: /skills
+Allow: /services
+Allow: /contact
+
+# Additional helpful info
+# Main domain: https://gurugangadhar.me/
+# Alternative domain: https://gurugangadhar.netlify.app/
