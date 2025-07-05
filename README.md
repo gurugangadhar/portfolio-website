@@ -5,7 +5,7 @@ Guru Gangadhar Reddy - Full-stack Developer Portfolio
 A modern, responsive portfolio website built with React + Vite showcasing my projects, skills, and experience.
 
 ## Live Demo
-🚀 [View Portfolio](https://gurugangadhar.github.io/portfolio-website/)
+🚀 [View Portfolio](https://gurugangadhar.netlify.app/)
 
 ## Features
 - Modern and responsive design
